@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 
 // Enable CORS for requests from http://localhost:3000
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: 'https://shhuter-up.vercel.app' }));
 
 // Connect to MongoDB
 connectDB();
